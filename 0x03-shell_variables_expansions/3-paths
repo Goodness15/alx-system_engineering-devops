@@ -1,2 +1,2 @@
 #!/bin/bash
-number_of_dirs=$(echo $PATH | tr ':' '\n' | grep -v '^$' | wc -l) echo $number_of_dirs
+echo $PATH | tr -cd ':' | wc -c
