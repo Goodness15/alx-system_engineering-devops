@@ -1,3 +1,2 @@
 #!/bin/bash
-# Append /action to the PATH variable
 export PATH="$PATH:/action"
